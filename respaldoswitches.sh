@@ -8,12 +8,12 @@
 
 if [ -f ipsdetectadas.temp ]; 
 then 
-touch /home/sergio/Descargas/siexiste.txt
+touch siexiste.txt
 echo "Sí, sí existe.";
 rm ipsdetectadas.temp
 touch ipsdetectadas.temp
 else 
-touch /home/sergio/Descargas/noexiste.txt
+touch noexiste.txt
 echo "No, no existe creando...";  
 touch ipsdetectadas.temp
 fi
@@ -33,7 +33,7 @@ fi
 
 
 
-rangoips="192.168.200.1-255" #formato del rango de ips 
+rangoips="192.168.1.1-255" # formato del rango de ips ejemplo 
 #escaneamos el segmento de red para ver los switches conectados 
 nmap -sn $rangoips >> ipsdetectadas.temp
 
