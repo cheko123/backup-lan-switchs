@@ -8,4 +8,9 @@ edit the user to connect here is a user read only and not password in practic yo
 the scrip work in actual directory
 i recomend all switch have a same user and password
 
+for run only type sh respaldoswitches.sh in your terminal linux or make execut and tipe ./respaldoswitches.sh  
+
+
+
+
 
